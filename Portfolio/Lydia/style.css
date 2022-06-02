@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face {
+    font-family:Montserrat;
+    src: url(Fontes/Montserrat-Light.ttf);}
+@font-face {
+    font-family:Roboto;
+    src: url(Fontes/Roboto-Bold.ttf);}
+
+nav {background-color:#315ab3;
+    margin: 0px;
+    padding: 1%;}
+    nav> a{color:white;
+    padding: 10px;
+    text-decoration:none;
+    font-family:Montserrat;
+    font-weight: bold;}
+    nav> a:hover {background-color:#fbce39f9;
+    color: white;}
+
+h1 {font-family: Arial, Helvetica, sans-serif;
+    background-color: #064a8e;    
+    color:white;
+    text-align: center;
+    font-size: 90px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+
+h2 {
+    display: flex;
+    font-family:Montserrat;
+    color:black;
+    font-weight: bolder;
+    }
+
+main {display: inline-block;
+    margin-top: 0%;
+    margin-right: 10em;
+    margin-bottom: 0%;
+    margin-left: 10em;
+    }
+
+span,img {display: inline-block;
+    font-family:Roboto;}
+
+span,a{text-decoration: none;
+        color: #315ab3;
+        font-family:Montserrat;
+        font-weight: bolder;}
+
+span,h2{color:black;}
+
+footer{background-color: #eec33c;
+color:#315ab3;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration:solid; 
+margin: 0px;
+padding: 1%;
+}
+
+body{background: color #f4f4f5;}
+

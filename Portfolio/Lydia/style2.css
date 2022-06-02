@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@font-face {
+    font-family:Montserrat;
+    src: url(Fontes/Montserrat-Light.ttf);}
+@font-face {
+    font-family:Roboto;
+    src: url(Fontes/Roboto-Regular.ttf);}
+    
+    nav {background-color:#315ab3;
+        margin: 0px;
+        padding: 1%;}
+        nav> a{color:white;
+        padding: 10px;
+        text-decoration:none;
+        font-family:Montserrat;
+        font-weight: bold;}
+        nav> a:hover {background-color:#fbce39f9;
+        color: white;}
+   
+    h1 {text-align: center;
+        font-size: 56px;
+        font-family:Montserrat;
+        color:#315ab3;
+    }
+
+    h2 {text-align:center;
+        font-size: 30px;
+        font-family:Montserrat;
+        color:black;
+    }
+
+    h3{font-size: 32px;
+    font-family: Roboto;
+    color: #315ab3;
+}
+
+    div{font-size: 14px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+    p{font-size: 18px;
+    font-family: Roboto;}
+
+    main {display: inline-block;
+        margin-top: 2%;
+        margin-right: 10em;
+        margin-bottom: 2%;
+        margin-left: 10em;}
+    
+    ul{font-size: 18px;
+        font-family:Roboto;
+    }
+
+    footer{background-color: #eec33c;
+        color:#315ab3;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration:solid; 
+        margin: 0px;
+        padding: 1%;
+        }
+
+       a{text-decoration: none;
+    color: #080ec9;} 

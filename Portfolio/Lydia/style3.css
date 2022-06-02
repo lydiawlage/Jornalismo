@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family:Montserrat;
+    src: url(Fontes/Montserrat-Light.ttf);}
+@font-face {
+    font-family:Roboto;
+    src: url(Fontes/Roboto-Regular.ttf);}
+    
+    nav {background-color:#315ab3;
+        margin: 0px;
+        padding: 1%;}
+        nav> a{color:white;
+        padding: 10px;
+        text-decoration:none;
+        font-family:Montserrat;
+        font-weight: bold;}
+        nav> a:hover {background-color:#fbce39f9;
+        color: white;}
+
+        h1{font-family: Montserrat;}
+
+    p {font-family: Roboto;}
+
+    main {display: inline-block;
+        margin-top: 0%;
+        margin-right: 10em;
+        margin-bottom: 0%;
+        margin-left: 10em;}
