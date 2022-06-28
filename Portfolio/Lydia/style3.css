@@ -17,12 +17,25 @@
         nav> a:hover {background-color:#fbce39f9;
         color: white;}
 
-        h1{font-family: Montserrat;}
+        h1{font-family: Montserrat;
+                font-size: 56px;
+                color:#315ab3;
+            }
 
-    p {font-family: Roboto;}
+    p {font-family: Roboto;
+    font-size: 18px;}
 
     main {display: inline-block;
         margin-top: 0%;
         margin-right: 10em;
         margin-bottom: 0%;
         margin-left: 10em;}
+    
+    h2 {
+        font-size: 30px;
+        font-family:Montserrat;
+        color:#315ab3;
+    }
+    ul,li{font-family: Roboto;}
+
+   div{text-align: center;}
