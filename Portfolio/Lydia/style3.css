@@ -26,10 +26,11 @@
     font-size: 18px;}
 
     main {display: inline-block;
-        margin-top: 0%;
-        margin-right: 10em;
-        margin-bottom: 0%;
-        margin-left: 10em;}
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 25px;
+        padding-bottom:5%;}
     
     h2 {
         font-size: 30px;
